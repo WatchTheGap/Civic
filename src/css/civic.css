@@ -1,8 +1,18 @@
+
 .jumbotron {
   text-align: center;
   background-color: #d9edf7;
   margin: 0;
 }
-main {
+
+.comCreateForm {
+  display: block;
+}
+
+.panel-primary {
   margin: 2em;
+}
+
+h2 {
+  margin: 0;
 }
