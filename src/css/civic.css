@@ -33,13 +33,18 @@
  }
 
  .taskColumn {
-   background-color: rgb(204, 236, 246);
+   background-color: #d9edf7;
    border: solid 1px rgb(150,150,150);
    border-radius: 2%;
  }
 
  .glyphicon {
-   padding: .5em;
+   color: rgb(51,122,183);
+   font-size: 1.5em;
+ }
+ .statusCount {
+   font-size: 1em;
+   font-weight: bold;
  }
  .notes {
    padding: .5em;
