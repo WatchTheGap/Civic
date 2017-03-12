@@ -1,3 +1,4 @@
+
 .logoMain {
   width: 300px;
 }
@@ -33,10 +34,10 @@
  }
 
  .taskColumn {
+   box-sizing: border-box;
    background-color: #d9edf7;
-   border: solid 1px rgb(150,150,150);
-   border-radius: 2%;
- }
+   padding: 1em;
+}
 
  .glyphicon {
    color: rgb(51,122,183);
@@ -48,6 +49,8 @@
  }
  .notes {
    padding: .5em;
+   position: relative;
+
  }
 
  .enterZip {
@@ -57,9 +60,6 @@
    width: 12em;
  }
 
-.notes {
-  position: relative;
-}
  .userIcon {
    border-radius: 50%;
    display: block;
