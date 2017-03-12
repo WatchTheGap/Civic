@@ -1,7 +1,10 @@
-
+.logoMain {
+  width: 300px;
+}
 .jumbotron {
   text-align: center;
-  background-color: #d9edf7;
+  color: white;
+  background-color: rgb(51,122,183);
   margin: 0;
 }
 
@@ -13,6 +16,50 @@
   margin: 2em;
 }
 
-h2 {
+.comHeaders {
   margin: 0;
 }
+
+.taskHeaders {
+  text-align: center;
+}
+
+.thumbnail {
+  margin: 1em;
+}
+ .landingMain {
+   margin: 3em;
+   text-align: center;
+ }
+
+ .taskColumn {
+   background-color: rgb(204, 236, 246);
+   border: solid 1px rgb(150,150,150);
+   border-radius: 2%;
+ }
+
+ .glyphicon {
+   padding: .5em;
+ }
+ .notes {
+   padding: .5em;
+ }
+
+ .enterZip {
+   text-align: center;
+   font-size: 2em;
+   height: 3em;
+   width: 12em;
+ }
+
+.notes {
+  position: relative;
+}
+ .userIcon {
+   border-radius: 50%;
+   display: block;
+   float: right;
+   position: absolute;
+   right: -10px;
+   bottom: -10px;
+ }
