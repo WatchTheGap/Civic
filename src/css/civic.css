@@ -13,6 +13,10 @@
   display: block;
 }
 
+.wordCloud {
+  display: none;
+}
+
 .panel-primary {
   margin: 2em;
 }
@@ -33,10 +37,13 @@
    text-align: center;
  }
 
+.superMain {
+  margin: auto;
+}
  .taskColumn {
    box-sizing: border-box;
    background-color: #d9edf7;
-   padding: 1em;
+   border: solid white 1em;
 }
 
  .glyphicon {
@@ -56,8 +63,6 @@
  .enterZip {
    text-align: center;
    font-size: 2em;
-   height: 3em;
-   width: 12em;
  }
 
  .userIcon {
